@@ -1,0 +1,122 @@
+#logo img {
+    max-height:70px;
+    max-width:110px;
+}
+
+#logo {
+    float:left;
+    margin:39px 0 -110px 40px;
+}
+
+#menu {
+	width:100%;
+    clear:both;
+    height:120px;
+	margin-bottom:20px;
+	text-align:center;
+	font-family: 'Comfortaa', cursive;
+}			
+
+.menu-hover, menu-div li {
+	width:90px;
+	height:90px;
+}
+				
+.menu-div {
+	overflow:hidden;
+	float:left;
+	margin-left:20px;
+	width:90px;
+	height:90px;
+}
+				
+.menu-hover {
+	float:left;
+	margin-left:-90px;	
+	z-index:5;
+}
+				
+.menu-nr {
+	width:90px;
+	margin-top:10px;
+	transition: 0.25s linear 0.25s;
+	margin-left:-10px;
+	padding:10px 10px 20px 10px;
+	z-index:15;	
+}					
+				
+li p {
+	color:white;
+	font-size:16px;
+	margin-top:60px;
+}
+
+.menu-span {
+    color:white;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+li {
+    display:inline;
+	cursor:pointer;
+	z-index:10;
+	width:90px;
+	height:90px;
+}
+
+ul {
+    margin-left:-40px;
+	margin-top:30px;
+}
+
+#static-nav {
+    position: relative;
+    width:auto;
+    height:78px;
+    float:left;
+    clear:left;
+    z-index: 10;
+    margin-left:130px;
+	font-size:9px;
+	padding-right:9px;
+}
+
+.share {
+    float:left;
+    font-size:16px;
+    height:auto;
+    width:30px;
+    margin-top:35px;
+    z-index: 5;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.share a {
+    text-decoration: none;
+    float:left;
+}
+.share span {
+    color:white;
+    transition:0.15s;
+    z-index: 3;
+    padding:3px 3px 3px 3px;
+    float:right;
+	margin-top:-22px;
+}
+				
+.share-div {
+	height:22px;
+	width:0px;
+	overflow:hidden;
+}
+				
+
+.share-div p {
+	color:white;
+	text-decoration:none;
+	float:left;
+	margin-top:-1px;
+	margin-left:3px;
+}	

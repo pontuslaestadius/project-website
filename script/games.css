@@ -1,0 +1,96 @@
+.good {
+	width:400px;
+	height:150px;
+	float:left;	
+}
+
+#container {
+	width:1200px;
+	min-height:1000px;
+	margin-top:40px;
+	padding:40px;
+	float:left;
+	margin-bottom:50px;
+}
+
+.greed a {
+	width:130px;
+	height:30px;
+	text-decoration: none;
+	padding:10px 20px 5px 20px;
+	float:left;
+	z-index: 5000;
+	color:black;
+	font-size:24px;
+	background-image: url(../img/games_button_texture.jpg);
+	background-repeat: repeat;
+	color:white;
+	text-align: center;
+	margin-left:130px;
+	margin-top:10px;
+	position: relative;
+}
+
+.greed {
+	float:left;
+	text-align: center;
+}
+
+#button1:target {
+	margin-left:65px;
+	margin-top:100px;
+	width:1000px;
+	padding:20px 20px 5px 20px;
+	transition-property: margin-top, margin-left, width;
+  	transition-duration: 1s, 0.9s, 0.4s;
+  	transition-delay: 0s, 0.5s, 0.7s;
+}
+
+#button2:target {
+	margin-top:100px;
+	width:1000px;
+	margin-left:-335px;
+	padding:20px 20px 5px 20px;
+	transition-property: margin-top, margin-left, width;
+  	transition-duration: 1s, 0.6s, 0.6s;
+  	transition-delay: 0s, 0.5s, 0.5s;
+}
+
+#button3:target {
+	margin-left:-735px;
+	margin-top:100px; 
+	padding:20px 20px 5px 20px;
+	width:1000px;
+	transition-property: margin-top, margin-left, width;
+  	transition-duration: 1s, 0.9s, 0.9s;
+  	transition-delay: 0s, 0.5s, 0.6s;
+}
+
+.potato {
+	display:none;
+	background-color: rgba(255, 255, 255, 0.6);
+	width:999px;
+	padding:19px;
+	height:800px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+
+#greendale {
+	width:1037px;
+	height:0px;
+	display: none;
+	background-color: rgba(255, 255, 255, 0.6);	
+	margin-top:-5px;
+	border-left:1px solid black;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+
+#game_holder {
+	float:left;
+	width:1000px;
+	margin-left:65px;
+	margin-top:-5px;
+}

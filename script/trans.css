@@ -1,0 +1,32 @@
+[class*="box"] {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+[class*="bigbox"] {
+    overflow:hidden;
+    z-index: 10;
+    float:left;
+	color:white;
+}
+
+.bigbox p, .bigbox h3 {
+	margin-right:30px;
+	
+}
+
+[class*="-smallbox"] {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    margin-left: 200px;
+    z-index: 5;
+}
+
+
+.hoverbox {
+    background:transparent;
+    margin-left:-200px;
+    z-index: 2;
+    floaT:left;
+}
